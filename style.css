@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: #212529;
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #212529;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+button, a{
+    transition: all 0.25s ease-out;
+}
+
+.navbar-container{
+
+}
+
+.navbar{
+    align-items: center;
+    background-color: #7952B3;
+    color: white;
+    display: flex;
+    height: 65px;
+    justify-content: space-between;
+    padding: 0 72px;
+}
+
+.container{
+    background: linear-gradient(165deg, #f7f5fb 18%, #fff 15%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.navbar ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.navbar a{
+    color: #EBE5F4;
+    font-weight: 400;
+    padding: 0 8px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.navbar-left{
+    list-style: none;
+}
+
+.navbar-left ul li:first-child{
+    margin-right: 8px;
+    font-size: 2.3em;
+}
+
+.active a{
+    color: white;
+    font-weight: 600;
+}
+
+.btn-download{
+    background-color: #7952B3;
+    border: 1px solid #FFE484;
+    border-radius: 3px;
+    color: #FFE484;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 15px;
+    padding: 9px 12px;
+}
+
+.btn-download:hover{
+    background-color: #FFE484;
+    border: 1px solid #FFE484;
+    border-radius: 3px;
+    color: #7952B3;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 9px 12px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 72px;
+}
+
+.intro-info, .intro-img{
+    padding: 0 12px;
+}
+
+.version{
+    color: #6C757D !important;
+    font-size: 1em !important;
+}
+
+.version a{
+    color: #6C757D;
+}
+
+.intro-info p{
+    color: #495057;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.btn-purple{
+    background-color: #7952B3;
+    color: white;
+    border-color: #7952B3 ;
+}
+
+.btn-purple:hover{
+    background-color: #61428F;
+    border-color: #61428F;
+}
+
+.btn-gray{
+    background-color: transparent;
+    border-color: #6C757D;
+    color: #6C757D;
+}
+
+.btn-gray:hover{
+    background-color: #6C757D;
+    border-color: #6C757D;
+    color: white;
+}
+
+.btn-feature{
+    background-color: transparent;
+    border-color: #0D6EFD;
+    color: #0D6EFD;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px 15px;
+}
+
+.btn-feature:hover{
+    background-color: #0D6EFD;
+    border-color: #0D6EFD;
+    color: white;
+}
+
+.feature{
+    padding: 50px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-info{
+    width: 42%;
+}
+
+.feature i{
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+    width: 55px;
+    height: 55px;
+}
+
+.i-green{
+    background-color: #318F60;
+}
+
+.i-blue{
+    background-color: #2978FE;
+}
+
+.i-purple{
+    background-color: #8361B8;
+}
+
+.i-red{
+    background-color: #DE404D;
+}
+
+.feature p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.feature a{
+    color: #0D6EFD;
+}
+
+.feature .lead{
+    font-size: 1.25rem;
+}
+
+.feature-code, .feature-img{
+    width: 60%;
+    padding-left: 48px;
+}
+
+.feature-img img{
+    width: 100%;
+}
+
+.feature-code-clipboard{
+    background-color: #F8F9FA;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.feature-code pre{
+    line-height: 1.8;
+}
+
+.feature-code-clipboard{
+    position: relative;
+}
+
+.feature-code-overflow{
+    overflow-x: auto;
+}
+
+.feature-code-clipboard button{
+    background-color: transparent;
+    border: 1px solid #0D6EFD;
+    border-radius: 4px;
+    color: #0D6EFD;
+    cursor: pointer;
+    padding: 4px 7px 6px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.feature-code-clipboard button:hover{
+    background-color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    color: white;
+}
+
+.footer{
+    background-color: #F8F9FA;
+    width: 100%;
+}
+
+.footer-container{
+    color: #495057;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 110px 80px 72px;
+}
+
+.footer-bootstrap-info p{
+    margin-bottom: 10px;
+}
+
+.footer-container ul{
+    list-style: none;
+}
+
+.footer-container li{
+    margin-bottom: 12px;
+}
+
+.footer-container a{
+    color: #495057;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.footer-container a:hover{
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+.footer-container div{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.footer-bootstrap-info{
+    font-size: 0.85em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    width: 25%;
+}
+
+.footer-bootstrap-info a{
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.footer-bootstrap-info i{
+    font-size: 1.8em;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.footer-bootstrap-info a:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+
+    .container{
+        background: linear-gradient(165deg, #f7f5fb 15%, #fff 15%);
+    }
+
+    .intro{
+        flex-direction: column-reverse;
+        padding: 0 30px;
+    }
+
+    .intro .btn{
+        width: 100%;
+    }
+
+    .intro-info{
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.7rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .intro-img{
+        display: flex;
+        justify-content: center;
+        padding: 55px 65px;
+    }
+
+    .intro-img img{
+        width: 100%;
+    }
+
+    .feature{
+        flex-direction: column;
+        padding: 20px 30px;
+    }
+
+    .feature-intro, .feature-info, .feature-code, .feature-img{
+        width: 100%;
+        padding: 0;
+    }
+
+    .feature-code-clipboard button{
+        display: none;
+    }
+
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+    }
+
+    .footer-bootstrap-info{
+        width: 100%;
+    }
+
+    .navbar{
+        padding: 0 10px;
+        overflow-x: auto;
+    }
+
+}
