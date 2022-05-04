@@ -1,4 +1,4 @@
 # fake_bootstrap
-Fake Bootstrap website design, developed with HTML and CSS.
+Fake Bootstrap UI, developed with HTML and CSS (desktop and mobile view).
 
 [Live preview](https://rojaslabs.github.io/fake_bootstrap/)
